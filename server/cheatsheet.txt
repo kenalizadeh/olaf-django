@@ -1,0 +1,4 @@
+-- Stuff --
+
+* Install required shit
+- sudo apt-get install python3-pip python3-dev libpq-dev postgresql postgresql-contrib postgis nginx virtualenv libgeos-dev binutils libproj-dev gdal-bin libgdal-dev python3-gdal

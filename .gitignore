@@ -1,0 +1,24 @@
+# I don't like tossing virtual environments around
+# see venvs/.gitignore
+
+# Logs must not be merged with production server
+# see logs/.gitignore
+
+# WHY
+.DS_Store
+
+# Local settings file
+settings_local.py
+
+# Log Files
+admin.log
+site.log
+
+# Fuck pycache
+*.pyc
+**/__pycache__/**
+
+# Ignore every file in migrations folder
+**/migrations/*
+# Except the init file
+!__init__.py

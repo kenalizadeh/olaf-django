@@ -1,0 +1,12 @@
+
+* Make appropriate changes to pg_backup.config file. (Shell script should not need to be modified)
+
+* Set postgresql user password environment variable. Add this line to ~/.bash_profile
+
+- export PGPASSWORD="your-psql-user-password"
+
+* Reload
+
+* Add everythin on the next line to crontab -e
+
+* * * * * bash /home/eisen/olaf/olafdjango/pg_backup/pg_backup_rotated.sh -c /home/eisen/olaf/olafdjango/pg_backup/pg_backup.config

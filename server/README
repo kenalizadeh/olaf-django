@@ -1,0 +1,6 @@
+
+** DO NOT FORGET TO MODIFY PATHS IN .service, nginx.conf and symlink.sh FILES **
+
+
+* Create separate virtual environments in venv folder for admin and website. DO NOT USE THE SAME VIRTUAL ENVIRONMENT
+- virtualenv -p python3 <name-of-the-venv>
