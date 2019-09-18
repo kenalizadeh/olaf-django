@@ -28,7 +28,7 @@ class Restaurant(BaseModel):
     date_joined = models.DateTimeField(auto_now_add=True)
 
     managers = models.ManyToManyField(User, related_name='restaurants')
-    brand = models.ForeignKey(MerchantBrand, related_name='restaurants', on_delete=models.DO_NOTHING)
+    brand = models.ForeignKey(MerchantBrand, related_name='restaurants', on_delete=models.DO_NOTHING, null=True, blank=True)
 
     @property
     def location(self):
